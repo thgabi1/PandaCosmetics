@@ -1,0 +1,406 @@
+/*Title section*/
+/*Titles*/
+/*Nav section*/
+/* Carousel */
+/*About me section*/
+/* Products section */
+/*Feedback section*/
+/*Footer section*/
+/*Copyright section*/
+/*Face and body care section*/
+/*Contact and booking section*/
+/*Offers section*/
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 400px;
+  }
+}
+
+body {
+  font-family: "Architects Daughter", cursive;
+  background-color: #ffff;
+}
+.animated-promo-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.animated-promo {
+  border-right: solid 5px rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  color: #ffaaa7;
+  font-size: 20px;
+  right: 0;
+  animation: animated-text 4s ease 1s 1 normal both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  height: 50px;
+}
+.title {
+  font-family: "Original Surfer", cursive;
+  font-size: 1.8em;
+  color: #98ddca;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.list-item-content-title {
+  color: #ffaaa7;
+}
+.title-section {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+}
+.logo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand-name {
+  font-size: 3em;
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+  &:hover {
+    color: #98ddca;
+  }
+  &:active {
+    color: #98ddca;
+  }
+  &:visited {
+    color: #98ddca;
+  }
+  &:link {
+    color: #98ddca;
+  }
+}
+.name {
+  font-size: 2em;
+}
+#main-nav {
+  font-size: 1.2em;
+}
+.nav-link {
+  &:visited {
+    color: #ffaaa7;
+  }
+  &:link {
+    color: #ffaaa7;
+  }
+  &:active {
+    color: #ffaaa7;
+  }
+  &:hover {
+    color: #d88d8a;
+  }
+}
+.navbar-toggler {
+  color: #98ddca;
+  &:focus {
+    box-shadow: none;
+  }
+}
+.navbar-brand {
+  img {
+    height: 100px;
+    margin-left: 10px;
+  }
+}
+.dropdown-menu {
+  background-color: #f6f6f6;
+}
+.dropdown-item {
+  color: #ffaaa7;
+}
+.carousel-indicators {
+  [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+}
+.carousel-caption {
+  h5 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+#about-me {
+  height: auto;
+  position: relative;
+  padding-top: 30px;
+}
+.bg {
+  position: absolute;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+#prof-pic {
+  display: flex;
+  justify-content: center;
+  img {
+    border-radius: 10%;
+    height: 600px;
+  }
+}
+#content {
+  position: relative;
+  display: flex;
+  order: 1;
+  align-items: center;
+}
+#content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: #ffaaa7;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Sacramento", cursive;
+}
+#title {
+  text-align: center;
+}
+#products {
+  margin-top: 30px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.product-pic {
+  padding: 10px;
+  width: 400px;
+}
+.carousel-item {
+  margin-bottom: 20px;
+}
+.feedbacks-carousel-inner {
+  position: relative;
+  font-family: "Caveat", cursive;
+  font-weight: 200;
+  font-size: 2em;
+  line-height: 1.5em;
+  font-style: italic;
+  padding: 0 8%;
+  text-align: center;
+  color: #64a794;
+  &:before {
+    content: "\201C";
+    position: absolute;
+    top: 0.25em;
+    left: -0.15em;
+    color: #98ddca;
+    opacity: 0.5;
+    font-size: 6em;
+    z-index: -1;
+  }
+}
+.carousel-control-prev-icon-colored {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+  &:after {
+    content: "<";
+    font-size: 55px;
+    color: #98ddca;
+  }
+}
+.carousel-control-next-icon-colored {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+  &:after {
+    content: ">";
+    font-size: 55px;
+    color: #98ddca;
+  }
+}
+footer {
+  background-color: #98ddca;
+  height: fit-content;
+}
+.footer-title {
+  color: #ffff;
+  padding-top: 20px;
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+.opening-hours-table {
+  border-spacing: 20px;
+  border-collapse: separate;
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+}
+.opening-hours {
+  h3 {
+    text-align: center;
+  }
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+.social-media-logo {
+  padding: 10px;
+  font-size: 1.5em;
+  color: #ffff;
+}
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  p {
+    text-align: center;
+  }
+}
+#cr {
+  text-align: center;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.face-care-title {
+  margin: 20px;
+}
+.skin-care-img {
+  border-radius: 10%;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+#list-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.list-item-price {
+  color: #ffaaa7;
+}
+.contact-section {
+  position: relative;
+  order: -1;
+  opacity: 0.5;
+}
+.contact-section-bg {
+  margin: 10px 0;
+}
+#message-reservation-form {
+  position: relative;
+  order: 1;
+  font-size: 1.2em;
+}
+input {
+  &:not(input[type="checkbox"]) {
+    width: 70vw;
+  }
+}
+optgroup {
+  width: 70vw;
+}
+select {
+  width: 70vw;
+}
+textarea {
+  width: 70vw;
+}
+.input-item {
+  display: block;
+  margin: 20px 0;
+}
+label {
+  display: block;
+}
+#reservation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#reservation-checkbox {
+  margin: 10px;
+}
+.btn {
+  margin: 10px 0;
+  background-color: #98ddca;
+  border: none;
+  &:visited {
+    margin: 10px 0;
+    background-color: #98ddca;
+    border: none;
+  }
+  &:link {
+    margin: 10px 0;
+    background-color: #98ddca;
+    border: none;
+  }
+  &:hover {
+    background-color: #64a794;
+  }
+  &:disabled {
+    background-color: gainsboro;
+  }
+}
+.offer-btn {
+  height: 200px;
+  border: 1px solid #64a794;
+}
+.offer-btn-logo {
+  font-size: 3em;
+  color: #fff;
+}
+@media only screen and (max-width: 900px) {
+  .brand-name {
+    font-size: 50px;
+    text-align: center;
+  }
+  .animated-promo {
+    font-size: 14px;
+  }
+  #content-text {
+    font-size: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #prof-pic {
+    img {
+      height: 300px;
+    }
+  }
+  .product-pic {
+    width: 150px;
+  }
+  #message-reservation-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
