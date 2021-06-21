@@ -1,5 +1,5 @@
 body {
-  font-family: "Original Surfer", cursive;
+  font-family: "Architects Daughter", cursive;
   background-color: #ffff;
 }
 
@@ -27,7 +27,7 @@ body {
 
 .title {
   font-family: "Original Surfer", cursive;
-  font-size: 2rem;
+  font-size: 1.8em;
   color: #98ddca;
   display: flex;
   justify-content: center;
@@ -72,8 +72,7 @@ body {
 /*Nav section*/
 
 #main-nav {
-  font-family: "Original Surfer", cursive;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .nav-link:visited,
@@ -105,7 +104,6 @@ body {
 
 .dropdown-item {
   color: #ffaaa7;
-  font-size: 1.2em;
 }
 
 /* Carousel */
@@ -164,11 +162,11 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  font-size: 1.5rem;
+  color: #ffaaa7;
+  font-size: 1.2rem;
   text-align: center;
   margin-top: 20px;
-  font-family: "Indie Flower", cursive;
-  color: rgb(0, 0, 0);
+  font-family: "Sacramento", cursive;
 }
 
 #title {
@@ -441,11 +439,10 @@ label {
   }
 
   #content-text {
-    font-size: 1.2rem;
+    font-size: 12px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 50%;
   }
 
   #prof-pic img {
